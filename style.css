@@ -1,0 +1,110 @@
+
+h1 { color: #800020;
+    font-size: 48px;
+    text-align: center;
+text-shadow: 2px 2px 4px #F5EBDD; }
+body {
+    background-color: black;
+    color: #F5EBDD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    
+    max-width: 1200px;
+}
+h2 {
+    color: #F5EBDD;
+    font-size: 28px;
+    border-bottom: 2px solid #800020;
+    padding-bottom: 8px;
+    margin-top: 40px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+a {
+    color: #F5EBDD;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:hover {
+    color: #800020;
+}
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+img[src="images/nroh-sticker.png"],
+img[src="images/hooligans-logo.png"],
+img[src="images/station-logo.png"],
+img[src="images/forged-logo.png"] {
+    border: 1px solid white;
+    padding: 5px;
+}
+img:hover {
+    opacity: 0.8;
+}
+figure img {
+    width: 300px;
+    height: 300px;
+}
+ul {
+    line-height: 1.6;
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+li::marker {
+    color: #800020;
+    font-size: 20px;
+}
+figure {
+    margin: 15px;
+    text-align: center;
+}
+figcaption {
+    color: #F5EBDD;
+    font-size: 14px;
+    margin-top: 8px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+mark {
+    background-color: #800020;
+    color: #F5EBDD;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 18px;
+    border: 2px solid #F5EBDD;
+    border-radius: 8px;
+}
+a b {
+    font-size: 24px;
+}
+a b {
+    display: inline-block;
+    font-size: 24px;
+    background-color: #F5EBDD;
+    color: #800020;
+    padding: 12px 20px;
+    border: 3px solid #800020;
+    border-radius: 8px;
+}
+a b:hover {
+    background-color: #800020;
+    color: #F5EBDD;
+}
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 10px;
+}
