@@ -1,10 +1,16 @@
 
-h1 { color: #800020;
-    font-size: 48px;
+h1 {
+    color: #F5EBDD;
+    font-size: 50px;
     text-align: center;
-text-shadow: 2px 2px 4px #F5EBDD; }
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 2px 2px 4px #800020; 
+}
 body {
     background-color: black;
+    background-image: url("images/OT_texture.png");
+    background-size: 600px auto;
+    background-repeat: repeat;
     color: #F5EBDD;
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px;
@@ -17,11 +23,6 @@ h2 {
     border-bottom: 2px solid #800020;
     padding-bottom: 8px;
     margin-top: 40px;
-}
-p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
 }
 a {
     color: #F5EBDD;
@@ -37,19 +38,17 @@ img {
     object-fit: contain;
     border-radius: 8px;
 }
-img[src="images/nroh-sticker.png"],
-img[src="images/hooligans-logo.png"],
-img[src="images/station-logo.png"],
-img[src="images/forged-logo.png"] {
+.project-image {
     border: 1px solid white;
     padding: 5px;
 }
 img:hover {
     opacity: 0.8;
 }
-figure img {
+figure video {
     width: 300px;
     height: 300px;
+    object-fit: contain;
 }
 ul {
     line-height: 1.6;
@@ -87,9 +86,6 @@ mark {
     border-radius: 8px;
 }
 a b {
-    font-size: 24px;
-}
-a b {
     display: inline-block;
     font-size: 24px;
     background-color: #F5EBDD;
@@ -107,4 +103,21 @@ img {
     height: 250px;
     object-fit: contain;
     border-radius: 10px;
+}
+#intro-line {
+    font: 24px Arial, Times New Roman, sans-serif;
+    margin-bottom: 15px;
+    border: none;
+    padding: 0;
+}
+#porky-gif {
+    text-align: center;
+    margin-bottom: 300px;
+    border: none;
+    padding: 0;
+}
+div {
+    border: 2px solid #800020;
+    margin-bottom: 20px;
+    padding: 20px;
 }
