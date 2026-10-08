@@ -4,6 +4,7 @@ body {
     color: #d8d8d8;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
+     font-weight: bold;
 }
 
 .haunted-page {
@@ -18,6 +19,7 @@ body {
 .message h1 {
     font-size: 42px;
     letter-spacing: 8px;
+     font-weight: bold;
     margin-bottom: 10px;
 }
 
@@ -29,6 +31,9 @@ body {
     transition: opacity 0.5s ease;
     position: relative;
     z-index: 2;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 15px 25px;
+    border-radius: 5px;
     color: #b30000;
 }
 
@@ -149,4 +154,100 @@ body {
 .reflection h2 {
     font-size: 14px;
     color: #b30000;
+}
+/* AI-assisted code - Final jump scare */
+
+#jump-scare {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.75;
+    z-index: 9999;
+    pointer-events: none;
+}
+/* AI-assisted code - Final warning */
+
+.final-scare {
+    font-size: clamp(160px, 120vw, 160px);
+    font-weight: 1000;
+    color: #ff0000;
+    text-align: center;
+    line-height: 4;
+    text-transform: uppercase;
+    text-shadow: 0 0 30px rgba(255, 0, 0, 0.7);
+    animation: screamText 0.25s ease-out;
+}
+
+@keyframes screamText {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+/* AI-assisted code - Creepy farewell */
+
+#creepy-farewell {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: min(90vw, 498px);
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    pointer-events: none;
+}
+/* AI-assisted code - Final restart screen */
+
+#restart-screen {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: black;
+    z-index: 10000;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#restart-screen h2 {
+    color: #ff0000;
+    font-size: clamp(36px, 6vw, 80px);
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+#restart-screen p {
+    color: #aaaaaa;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+#restart-screen a {
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+#restart-screen a:hover {
+    background-color: #ff0000;
+    color: black;
 }
