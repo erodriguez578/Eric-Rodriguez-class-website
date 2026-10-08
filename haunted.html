@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THERE'S NOTHING HERE!!!</title>
+    <link rel="stylesheet" href="haunted.css">
+</head>
+<body>
+<main class="haunted-page">
+
+    <div class="message">
+        <h1>THERE'S NOTHING HERE.</h1>
+        <p id="warning-text">Look around if you don't believe me.</p>
+    </div>
+    <div id="choices">
+    <button id="yes-button">YES</button>
+    <button id="no-button">NO</button>
+</div>
+    <div class="eye-container">
+    <img id="creepy-eye" src="images/creepy-eye.png" alt="A creepy eye">
+</div>
+
+    <a class="home-link" href="index.html">Back to Home</a>
+    <details class="reflection">
+    <summary>BEHIND THE HAUNTING</summary>
+
+    <h2>AI + JAVASCRIPT REFLECTION</h2>
+
+    <p>
+        I asked ChatGPT to help me create an interactive haunted
+        webpage with a creepy eye that follows the mouse, changing
+        messages, sound effects, and different reactions based on
+        the user's choices.
+    </p>
+
+    <p>
+        Not everything worked immediately. I had to fix an audio
+        file path, adjust the timing of the sound effects, and
+        improve the visibility of the text.
+    </p>
+
+    <p>
+        I understand how JavaScript functions, event listeners,
+        timers, and CSS classes work together. I can make some
+        basic changes myself, but I would still need AI's help
+        with more complicated interactions.
+    </p>
+</details>
+
+</main>
+
+<audio id="ambient-audio" src="audio/haunted-ambient.mp3" loop></audio>
+<audio id="knock-audio" src="audio/knock.mp3"></audio>
+<audio id="whisper-audio" src="audio/whisper.mp3"></audio>
+<script src="haunted.js"></script>    
+</body>
+</html>
